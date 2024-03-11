@@ -1,4 +1,10 @@
-// console.log("Hello World!");
+let myName =" my name is Alamzaib";
+ let message =" Hollo";
+ console.log( message + myName);
 
-// console.log("hello world i am Alamzaib Sahito what i can hlep you");
 
+
+
+let bilal = " when is your  date of birth";
+let Alamzaib = " my date of birth is 4 April 2006";
+console.log (bilal + Alamzaib);
