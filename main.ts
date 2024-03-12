@@ -1,10 +1,7 @@
-let myName =" my name is Alamzaib";
- let message =" Hollo";
- console.log( message + myName);
+let favNumber = 10;
+let message = "mine favorite number is:"
+console.log( message,favNumber);
 
 
-
-
-let bilal = " when is your  date of birth";
-let Alamzaib = " my date of birth is 4 April 2006";
-console.log (bilal + Alamzaib);
+let favoriteColor = "yellow,and,green";
+console.log (favoriteColor);
