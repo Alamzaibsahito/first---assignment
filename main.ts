@@ -1,36 +1,18 @@
-let one = "1"
-let two = "2"
-let three = "3"
-let four = "4"
-let five = "5"
+const personName :string = "Alamzaib Sahito"
 
-console.log(one,two,three,four,five)
+//lowerCase
 
+console.log(personName.toLowerCase());
 
+//uppercase
 
-//for loop
+console.log(personName.toUpperCase());
 
-loop format /syntax
- for (let h =1;h<=4 h++){
-    console.log("hello world")
-}
+//titlecase
 
+let firstLetter: string = personName. charAt(0).toUpperCase();
+let restLetters: string =personName.slice(1).toLowerCase();
 
+let titlecase = firstLetter + restLetters;
 
-let cleanestCities : = [ "Matli","Tando Ghulam Ali","New Dumbalo"];
- for (let i =1; 1<=4; i++){
-    console.log("it is one of the cleanest cities");
-    break;
- }
-
-let n:number =4;
-let a:string="";
-for (let i:number=1; i<=n; i++){
-    //console.log(i)
-    for (let j:number=1; j<=i;j++){
-        a +="*"
-        
-    }
-    a += "\n"
-}
-console.log(a)
+console.log(titlecase);
