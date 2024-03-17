@@ -1,18 +1,4 @@
-const personName :string = "Alamzaib Sahito"
-
-//lowerCase
-
-console.log(personName.toLowerCase());
-
-//uppercase
-
-console.log(personName.toUpperCase());
-
-//titlecase
-
-let firstLetter: string = personName. charAt(0).toUpperCase();
-let restLetters: string =personName.slice(1).toLowerCase();
-
-let titlecase = firstLetter + restLetters;
-
-console.log(titlecase);
+const num1 = 23;
+const num2 = 3;
+//this will add the num1  and num2 (this comment is typescript)
+console.log(num1 + num2);
